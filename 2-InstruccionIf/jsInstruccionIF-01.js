@@ -1,6 +1,32 @@
+/*
+Enunciado:
+Al ingresar una edad que sea igual a 15, mostrar
+el mensaje "niña bonita".
+*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	edad = txtIdEdad.value; //tomo la edad
+	edad = parseInt (edad);
 
-}//FIN DE LA FUNCIÓN
+	if (edad == 15) // no escribir " ; "
+	{
+		alert ("Niña bonita");
+	}
+}
+//FIN DE LA FUNCIÓN
+
+
+
+/*
+if (condición) // puede tomar un valor verdadero o falso
+{
+	código...
+}
+
+Operadores
+  - aritméticos: para cálculos aritméticos (+,-,*,/)
+  - relacionales: nos permite realizar relaciones entre cosas (<, >, ==, <=, >=, !=)
+  estos siempre van a devolver verdadero o falso
+  - lógicos: y (&&), o (||) , no (!)
+*/

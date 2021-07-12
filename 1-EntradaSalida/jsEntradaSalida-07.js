@@ -7,7 +7,7 @@ function sumar()
 {	
 	var numeroUno;
 	numeroUno = txtIdNumeroUno.value;
-	numeroUno = parseInt (numeroUno);
+	numeroUno = parseInt (numeroUno); // siempre parsear después de tomar el dato
 
 	var numeroDos;
 	numeroDos = txtIdNumeroDos.value;
