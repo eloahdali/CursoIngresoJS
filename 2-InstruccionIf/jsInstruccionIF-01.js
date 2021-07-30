@@ -1,3 +1,4 @@
+// CLASE 3 - LUNES 12/07/21
 /*
 Enunciado:
 Al ingresar una edad que sea igual a 15, mostrar
@@ -28,5 +29,6 @@ Operadores
   - aritméticos: para cálculos aritméticos (+,-,*,/)
   - relacionales: nos permite realizar relaciones entre cosas (<, >, ==, <=, >=, !=)
   estos siempre van a devolver verdadero o falso
-  - lógicos: y (&&), o (||) , no (!)
+  - lógicos: nos permiten unir de alguna manera las operaciones
+  y (&&), o (||) , no (!)
 */

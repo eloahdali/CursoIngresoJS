@@ -1,12 +1,16 @@
 /*
 Al presionar el botón pedir un sexo
-'f' para femenino, 'm' para masculino.*/
+'F' para femenino, 'M' para masculino.
+*/
 function mostrar()
 {
 	var sexoIngresado;
-	sexoIngresado = prompt("ingrese f ó m .");
+	sexoIngresado = prompt ("Ingrese f o m");
 
+	while (sexoIngresado != "f" && sexoIngresado != "m") // se tiene que cumplir las dos, por eso no usar "||"
+	{
+		sexoIngresado = prompt ("Incorrecto, ingrese F o M");
+	}
 
-
-	txtIdSexo.value=sexoIngresado;
-}//FIN DE LA FUNCIÓN
+	txtIdSexo.value = sexoIngresado;
+}
